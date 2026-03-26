@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duna — Crônicas de Arrakis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas-areia"></canvas>
+
+    <!-- ═══════════════ HEADER ═══════════════ -->
+    <header class="cabecalho-site" id="topo">
+      <div class="cabecalho-interno">
+        <div class="caixa-logo">
+          <div class="marca-logo">
+            <img src="assets/01_logo_duna.jpeg" alt="Logo da página Duna" />
+          </div>
+          <div class="texto-logo">
+            <span>Crônicas de</span>
+            <strong>Arrakis</strong>
+          </div>
+        </div>
+
+        <div class="caixa-titulo">
+          <p class="sobretitulo">
+            Uma leitura cinematográfica da trajetória de Paul Atreides
+          </p>
+          <h1>DUNA</h1>
+        </div>
+
+        <div class="caixa-navegacao">
+          <button
+            class="botao-menu-mobile"
+            id="botao-menu"
+            aria-label="Abrir menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <nav class="barra-navegacao" id="nav-principal">
+            <ul>
+              <li><a href="#apresentacao">Início</a></li>
+              <li><a href="#caladan">Caladan</a></li>
+              <li><a href="#arrakis">Arrakis</a></li>
+              <li><a href="#queda">A Queda</a></li>
+              <li><a href="#fremen">Fremen</a></li>
+              <li><a href="#muaddib">Muad'Dib</a></li>
+              <li><a href="#guerra">Guerra</a></li>
+              <li><a href="#destino">Destino</a></li>
+              <li><a href="#legado">Legado</a></li>
+              <li><a href="#timeline">Timeline</a></li>
+              <li><a href="#trilha">Trilha Sonora</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- ═══════════════ MAIN ═══════════════ -->
+    <main>
+      <!-- ——— 1. APRESENTAÇÃO / HERO ——— -->
+      <section id="apresentacao" class="secao-destaque">
+        <div class="camada-destaque"></div>
+
+        <div class="conteudo-destaque revelar">
+          <p class="chamada-destaque">Paul Muad'Dib Atreides</p>
+          <h2>Do herdeiro de Caladan ao senhor de Arrakis</h2>
+          <p class="texto-destaque">
+            Filho do duque Leto Atreides e de Lady Jessica, herdeiro da Casa
+            Atreides e figura central em Arrakis. Sua trajetória percorre a
+            herança nobre, o exílio no deserto e a ascensão ao trono imperial —
+            transformando um jovem herdeiro em lenda trágica.
+          </p>
+          <div class="titulos-paul">
+            <span class="tag-titulo">Duque de Arrakis</span>
+            <span class="tag-titulo">Muad'Dib</span>
+            <span class="tag-titulo">Lisan al-Gaib</span>
+            <span class="tag-titulo">Kwisatz Haderach</span>
+            <span class="tag-titulo">Imperador</span>
+          </div>
+          <a href="#caladan" class="link-destaque">Iniciar jornada ↓</a>
+        </div>
+
+        <div class="midia-destaque revelar">
+          <img
+            src="assets/02_paul_atreides.jpg"
+            alt="Paul Atreides em destaque"
+          />
+          <span class="rotulo-midia">Paul Atreides</span>
+        </div>
+      </section>
+
+      <!-- ——— CITAÇÃO DE ABERTURA ——— -->
+      <div class="bloco-citacao revelar">
+        <blockquote>
+          "Eu não devo temer. O medo é o assassino da mente. O medo é a pequena
+          morte que traz a obliteração total."
+        </blockquote>
+        <cite>— Litania contra o medo, Bene Gesserit</cite>
+      </div>
+
+      <!-- ——— 2. ORIGEM EM CALADAN ——— -->
+      <section id="caladan" class="secao-ato">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Capítulo I</p>
+          <h2>Origem em Caladan</h2>
+          <p>
+            Antes do deserto, Paul é filho de uma casa nobre. Em Caladan, um
+            mundo oceânico de céus cinzentos e costas verdes, ele é educado para
+            herdar poder, disciplina e responsabilidade. Os primeiros sinais de
+            algo extraordinário já se manifestam.
+          </p>
+        </div>
+
+        <div class="grade-capitulos">
+          <div class="cartao-capitulo revelar">
+            <h3>O filho do duque</h3>
+            <p>
+              Paul cresce em Caladan cercado por treino, estratégia e
+              expectativa. Leto Atreides o prepara para governar com justiça;
+              Jessica o educa entre política, percepção e controle, transmitindo
+              técnicas da Bene Gesserit. Desde cedo, ele carrega presságios,
+              visões recorrentes e a sensação de que há algo maior à sua espera.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo cartao-midia revelar">
+            <img
+              src="assets/03_paul_em_caladan.webp"
+              alt="Paul Atreides em Caladan"
+            />
+            <span>Paul em Caladan</span>
+          </div>
+
+          <div class="cartao-capitulo cartao-midia revelar">
+            <img
+              src="assets/04_casa_atreides.jpeg"
+              alt="Casa Atreides reunida"
+            />
+            <span>Casa Atreides</span>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>Formação e mestres</h3>
+            <p>
+              Duncan Idaho ensina combate; Gurney Halleck transmite tática e
+              poesia; Thufir Hawat oferece lógica mentat. Cada mestre molda uma
+              faceta do jovem Paul, tornando-o mais do que um aristocrata: um
+              instrumento de múltiplas disciplinas convergentes.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>O peso do nome Atreides</h3>
+            <p>
+              Ser Atreides não significa apenas possuir um sobrenome. Significa
+              representar honra, legitimidade e ameaça política aos inimigos do
+              trono. Em Paul, o nome da casa se mistura ao destino. Ele precisa
+              aprender a ser filho, sucessor e símbolo ao mesmo tempo — enquanto
+              seus sonhos o levam repetidamente a um deserto que nunca viu.
+            </p>
+          </div>
+
+          <!-- PLACEHOLDER PARA IMAGEM ADICIONAL -->
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="caladan-paisagem"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: Paisagem de Caladan</span>
+            </div>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>As visões começam</h3>
+            <p>
+              Sonhos com dunas infinitas, uma garota fremen e um futuro que ele
+              ainda não compreende. As visões de Paul não são fantasia: são a
+              manifestação de uma habilidade presciente que ultrapassará qualquer
+              treinamento ou linhagem.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— 3. A MUDANÇA PARA ARRAKIS ——— -->
+      <section id="arrakis" class="secao-ato secao-ato-escura">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Capítulo II</p>
+          <h2>A Mudança para Arrakis</h2>
+          <p>
+            A transferência para Arrakis muda tudo. O planeta não é apenas uma
+            posse imperial: é o centro econômico do universo por causa da
+            especiaria melange, e também um campo de armadilha política armada
+            pelo próprio Imperador.
+          </p>
+        </div>
+
+        <div class="grade-capitulos">
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>Arrakis: o planeta deserto</h3>
+            <p>
+              Arrakis — também chamado Duna — é um mundo de extremos: calor
+              implacável, tempestades de areia e os gigantescos vermes da areia
+              que atravessam suas profundezas. Sob sua superfície hostil, a
+              especiaria melange faz dele o planeta mais valioso do Império.
+              Quem controla a especiaria, controla o universo.
+            </p>
+          </div>
+
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="arrakis-planeta"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: Vista de Arrakis</span>
+            </div>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>A especiaria melange</h3>
+            <p>
+              A substância mais valiosa do universo conhecido. Prolonga a vida,
+              expande a consciência e possibilita a navegação interestelar.
+              Encontrada exclusivamente em Arrakis, a melange é a razão pela
+              qual grandes casas se destroem para controlar este planeta.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>O contraste entre mundos</h3>
+            <p>
+              De Caladan — verde, úmido, seguro — para Arrakis — seco, mortal,
+              desconhecido. Essa transição não é apenas geográfica: ela marca o
+              fim da infância de Paul e o início de sua transformação. O planeta
+              deserto exige adaptação ou morte.
+            </p>
+          </div>
+
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="arrakis-especiaria"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: Colheita de especiaria</span>
+            </div>
+          </div>
+
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>A armadilha imperial</h3>
+            <p>
+              O Imperador Shaddam IV concede Arrakis aos Atreides sabendo que
+              sua popularidade ameaça o trono. A mudança não é uma recompensa:
+              é uma emboscada calculada, com os Harkonnen como instrumento
+              secreto de destruição. Leto sabe do perigo, mas aceita o desafio.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— CITAÇÃO ——— -->
+      <div class="bloco-citacao revelar">
+        <blockquote>
+          "O mistério da vida não é um problema a ser resolvido, mas uma
+          realidade a ser experimentada."
+        </blockquote>
+        <cite>— Reverenda Madre Gaius Helen Mohiam</cite>
+      </div>
+
+      <!-- ——— 4. A QUEDA DA CASA ATREIDES ——— -->
+      <section id="queda" class="secao-ato secao-ato-sombria">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Capítulo III</p>
+          <h2>A Queda da Casa Atreides</h2>
+          <p>
+            A traição destrói tudo. A aliança entre os Harkonnen e o Imperador
+            esmaga a Casa Atreides numa única noite. É a ruptura definitiva —
+            o fim da vida que Paul conhecia.
+          </p>
+        </div>
+
+        <div class="grade-capitulos">
+          <div class="cartao-capitulo revelar">
+            <h3>A traição de Yueh</h3>
+            <p>
+              O doutor Wellington Yueh, condicionado pelo Imperium para ser
+              incapaz de matar, tem seu condicionamento quebrado pelos
+              Harkonnen. Sua traição abre as portas da fortaleza Atreides,
+              permitindo o ataque devastador que elimina a guarda ducal.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo cartao-midia revelar">
+            <img
+              src="assets/05_queda_casa_atreides.jpg"
+              alt="Queda da Casa Atreides"
+            />
+            <span>A queda da Casa Atreides</span>
+          </div>
+
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>A morte do duque Leto</h3>
+            <p>
+              Leto Atreides morre como viveu: com dignidade e estratégia. Mesmo
+              capturado, tenta levar o Barão Harkonnen consigo usando uma
+              cápsula de veneno escondida num dente. Sua morte marca o fim de
+              uma era para Paul — não há mais proteção, não há mais casa, não
+              há mais volta.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>A fuga para o deserto</h3>
+            <p>
+              Paul e Jessica escapam para o deserto aberto — um lugar onde
+              ninguém espera que sobrevivam. O que deveria ser sentença de morte
+              se torna o caminho para a transformação. O deserto, hostil e
+              implacável, paradoxalmente oferece a única possibilidade de
+              sobrevivência e renascimento.
+            </p>
+          </div>
+
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="queda-destruicao"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: Destruição de Arrakeen</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— 5. O DESERTO E OS FREMEN ——— -->
+      <section id="fremen" class="secao-ato">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Capítulo IV</p>
+          <h2>O Deserto e os Fremen</h2>
+          <p>
+            Arrakis deixa de ser território hostil e passa a ser escola. Entre
+            os fremen, Paul aprende a sobreviver, a ler o deserto e a perceber
+            que o planeta possui sua própria lógica de vida, poder e
+            espiritualidade.
+          </p>
+        </div>
+
+        <div class="grade-capitulos">
+          <div class="cartao-capitulo revelar">
+            <h3>O povo do deserto</h3>
+            <p>
+              Os fremen são guerreiros endurecidos pelo ambiente mais hostil do
+              universo. Sua cultura gira em torno da água — recurso sagrado e
+              escasso. Cada gota é contada, cada vida é medida pelo que produz
+              e preserva. Entre eles, Paul descobre uma civilização sofisticada
+              onde outros veem apenas selvageria.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo cartao-midia revelar">
+            <img
+              src="assets/06_paul_deserto.jpg"
+              alt="Paul no deserto com os fremen"
+            />
+            <span>Paul no deserto</span>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>Stilgar e a confiança conquistada</h3>
+            <p>
+              Stilgar, líder do sietch Tabr, aceita Paul e Jessica não por
+              profecia, mas por demonstração de valor. A relação entre Paul e
+              Stilgar evolui de desconfiança para respeito mútuo — e
+              eventualmente para uma lealdade que moldará o destino de Arrakis.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>Chani e o vínculo com Arrakis</h3>
+            <p>
+              Chani é a conexão humana de Paul com o mundo fremen. Através dela,
+              o deserto deixa de ser abstração e se torna lar. O vínculo entre
+              os dois representa mais que romance: é a ponte entre o herdeiro
+              imperial e o povo que ele liderará. Chani vê o homem; os fremen
+              veem o profeta.
+            </p>
+          </div>
+
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="fremen-sietch"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: Interior do Sietch</span>
+            </div>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>Cavalgar o verme</h3>
+            <p>
+              O rito de passagem definitivo: montar um verme da areia. Quando
+              Paul domina um Shai-Hulud, ele não apenas prova sua coragem — ele
+              demonstra que pertence a Arrakis. O planeta o aceita, e com isso,
+              os fremen também.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— CITAÇÃO ——— -->
+      <div class="bloco-citacao revelar">
+        <blockquote>
+          "A visão do tempo nunca é uma linha reta. É um rio que flui em todas
+          as direções ao mesmo tempo."
+        </blockquote>
+        <cite>— Paul Muad'Dib Atreides</cite>
+      </div>
+
+      <!-- ——— 6. O SURGIMENTO DE MUAD'DIB ——— -->
+      <section id="muaddib" class="secao-ato secao-ato-escura">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Capítulo V</p>
+          <h2>O Surgimento de Muad'Dib</h2>
+          <p>
+            No exílio, Paul não apenas resiste: ele se transforma. O nome
+            Muad'Dib — o rato do deserto que sobrevive onde nada deveria —
+            marca sua entrada no imaginário fremen. O homem e o mito começam a
+            se confundir.
+          </p>
+        </div>
+
+        <div class="grade-capitulos">
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>Lisan al-Gaib: o messias esperado</h3>
+            <p>
+              As profecias plantadas pela Missionaria Protectiva das Bene
+              Gesserit encontram em Paul sua encarnação. Os fremen o reconhecem
+              como Lisan al-Gaib — a Voz do Mundo Exterior. Mas Paul sabe que
+              essas profecias foram engendradas, e o dilema entre usá-las e
+              rejeitá-las define seu conflito interno.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>A Água da Vida</h3>
+            <p>
+              Ao consumir a Água da Vida — o veneno transmutado dos vermes —
+              Paul desperta completamente sua presciência. Ele vê todos os
+              futuros possíveis, incluindo a jihad em seu nome. O poder é
+              absoluto, mas o preço é conhecer cada consequência terrível de
+              suas escolhas.
+            </p>
+          </div>
+
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="muaddib-ritual"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: Ritual da Água da Vida</span>
+            </div>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>O líder relutante</h3>
+            <p>
+              Paul assume a liderança não por ambição, mas por inevitabilidade.
+              Cada caminho que sua presciência revela leva à violência, à
+              devoção cega e à guerra santa. Ele tenta encontrar uma via que
+              minimize o sofrimento, mas descobre que o mito já é maior que o
+              homem.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>O homem versus o símbolo</h3>
+            <p>
+              Muad'Dib não é Paul. É a projeção das esperanças, medos e fé de
+              um povo inteiro. Quando os fremen olham para Paul, já não veem o
+              jovem de Caladan — veem um salvador. Essa transformação é
+              irreversível: o símbolo devora a pessoa, e Paul compreende que
+              sua identidade anterior está desaparecendo.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— 7. A GUERRA PELO PODER ——— -->
+      <section id="guerra" class="secao-ato">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Capítulo VI</p>
+          <h2>A Guerra pelo Poder</h2>
+          <p>
+            Paul converte conhecimento do deserto, fé fremen e estratégia
+            militar em força imparável. O confronto final não é apenas contra
+            os Harkonnen — é contra o próprio Imperador.
+          </p>
+        </div>
+
+        <div class="grade-capitulos">
+          <div class="cartao-capitulo cartao-video cartao-largo revelar">
+            <h3>Discurso de Paul Atreides</h3>
+            <div class="video-youtube">
+              <iframe
+                src="https://www.youtube.com/embed/b0dKrygO6FU?si=3NQRXqLhvZJNa1v6"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p class="texto-video">
+              Momento decisivo em que Paul Atreides assume seu papel como líder
+              dos fremen e desafia as forças imperiais.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo cartao-midia revelar">
+            <img
+              src="assets/07_ataque_ao_imperador.jpg"
+              alt="Ataque final ao Imperador"
+            />
+            <span>O ataque ao Imperador</span>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>A batalha de Arrakeen</h3>
+            <p>
+              Paul desfere seu golpe final montando os vermes da areia contra
+              as forças combinadas dos Harkonnen e do Imperador. A tempestade
+              de areia se torna arma; os fremen se tornam exército. A conquista
+              de Arrakeen marca o fim da ordem imperial como se conhecia.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>O duelo com Feyd-Rautha</h3>
+            <p>
+              O combate ritual entre Paul e Feyd-Rautha Harkonnen não é apenas
+              pessoal: é o embate simbólico entre duas casas, duas filosofias,
+              dois futuros. A vitória de Paul sela o destino do Imperium.
+            </p>
+          </div>
+
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="guerra-batalha"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: Batalha de Arrakeen</span>
+            </div>
+          </div>
+
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>A conquista do trono</h3>
+            <p>
+              Paul não apenas derrota o Imperador: ele o substitui. Ao
+              reivindicar a mão da princesa Irulan e o trono imperial, Paul
+              transforma uma revolta local em revolução galáctica. O jovem de
+              Caladan agora governa o universo conhecido.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— 8. PODER, VISÃO E PESO DO DESTINO ——— -->
+      <section id="destino" class="secao-ato secao-ato-escura">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Capítulo VII</p>
+          <h2>Poder, Visão e Peso do Destino</h2>
+          <p>
+            O trono imperial é conquistado, mas o peso da presciência e da
+            jihad em seu nome transforma a vitória em prisão. O tom deixa de
+            ser heroico e assume caráter trágico.
+          </p>
+        </div>
+
+        <div class="grade-capitulos">
+          <div class="cartao-capitulo revelar">
+            <h3>A jihad inevitável</h3>
+            <p>
+              Mesmo que Paul não a deseje, a guerra santa se espalha pelo
+              universo em seu nome. Bilhões morrem sob a bandeira de Muad'Dib.
+              A devoção dos fremen, que o salvou, agora se transforma em
+              fanatismo incontrolável — e Paul compreende que certas forças,
+              uma vez desencadeadas, não podem ser detidas.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>O peso da presciência</h3>
+            <p>
+              Ver o futuro não é liberdade: é condenação. Paul enxerga cada
+              caminho possível e sabe que todos levam ao sofrimento. A
+              presciência que o torna poderoso é a mesma que o aprisiona numa
+              teia de consequências das quais não há escapatória.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo cartao-midia revelar">
+            <img
+              src="assets/08_paul_muaddib_atreides.jpg"
+              alt="Paul Muad'Dib Atreides"
+            />
+            <span>Paul Muad'Dib Atreides</span>
+          </div>
+
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>Escolha individual versus determinismo</h3>
+            <p>
+              Paul Atreides encarna o dilema central de Duna: é possível ser
+              livre quando se pode ver o destino? A tensão entre agência humana
+              e forças históricas maiores percorre toda a narrativa. Paul é ao
+              mesmo tempo o agente de mudança e a vítima do processo que
+              desencadeou — um herói trágico no sentido mais completo.
+            </p>
+          </div>
+
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="destino-trono"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: Paul no trono imperial</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— 9. LEGADO ——— -->
+      <section id="legado" class="secao-ato">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Capítulo VIII</p>
+          <h2>Legado de Paul Atreides</h2>
+          <p>
+            O legado de Paul é ambíguo. Ele transforma Arrakis, abala o
+            império, inspira devoção e medo. Seu nome atravessa política,
+            religião e memória coletiva.
+          </p>
+        </div>
+
+        <div class="grade-capitulos">
+          <div class="cartao-capitulo revelar">
+            <h3>A transformação de Arrakis</h3>
+            <p>
+              Sob o governo de Paul, Arrakis começa a mudar. Os sonhos fremen
+              de um planeta verde — o terraforming ecológico proposto por Liet-
+              Kynes — ganham impulso. Mas a transformação do planeta ameaça a
+              produção de especiaria, criando um paradoxo entre liberdade
+              fremen e economia galáctica.
+            </p>
+          </div>
+
+          <div class="cartao-capitulo revelar">
+            <h3>O homem e a lenda</h3>
+            <p>
+              Paul Atreides, o jovem de Caladan, deixou de existir. Em seu
+              lugar permanece Muad'Dib, o mito. A dualidade entre o indivíduo
+              e o ícone define seu legado: ele conquistou o universo, mas
+              perdeu a si mesmo no processo.
+            </p>
+          </div>
+
+          <div
+            class="cartao-capitulo cartao-midia placeholder-imagem revelar"
+            data-placeholder="legado-arrakis"
+          >
+            <div class="placeholder-conteudo">
+              <span class="placeholder-icone">🖼️</span>
+              <span>Espaço para imagem: O legado em Arrakis</span>
+            </div>
+          </div>
+
+          <div class="cartao-capitulo cartao-largo revelar">
+            <h3>Uma lenda trágica</h3>
+            <p>
+              Duna não conta apenas a ascensão de um líder: conta o nascimento
+              de uma lenda trágica. Paul Atreides mostra que o poder absoluto
+              não liberta — aprisiona. Que a profecia não salva — condena. Que
+              o herói e o tirano podem habitar o mesmo corpo. Seu legado é um
+              aviso: cuidado com os messias.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— 10. LINHA DO TEMPO ——— -->
+      <section id="timeline" class="secao-ato secao-ato-escura">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Linha do Tempo</p>
+          <h2>A Jornada de Paul Atreides</h2>
+          <p>
+            Eventos-chave da trajetória de Paul, do nascimento em Caladan à
+            conquista do trono imperial.
+          </p>
+        </div>
+
+        <div class="timeline revelar">
+          <div class="timeline-item" data-ano="10175 AG">
+            <div class="timeline-conteudo">
+              <h3>Nascimento em Caladan</h3>
+              <p>Paul nasce como herdeiro da Casa Atreides, filho do duque Leto e de Lady Jessica.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-ano="10190 AG">
+            <div class="timeline-conteudo">
+              <h3>O teste do Gom Jabbar</h3>
+              <p>A Reverenda Madre testa Paul com a caixa da dor. Ele resiste além de qualquer expectativa.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-ano="10191 AG">
+            <div class="timeline-conteudo">
+              <h3>Chegada a Arrakis</h3>
+              <p>A Casa Atreides assume o controle de Arrakis e da produção de especiaria.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-ano="10191 AG">
+            <div class="timeline-conteudo">
+              <h3>A Queda dos Atreides</h3>
+              <p>Ataque Harkonnen. Morte de Leto. Paul e Jessica fogem para o deserto.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-ano="10191 AG">
+            <div class="timeline-conteudo">
+              <h3>Encontro com os Fremen</h3>
+              <p>Paul e Jessica são acolhidos pelo sietch Tabr sob liderança de Stilgar.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-ano="10193 AG">
+            <div class="timeline-conteudo">
+              <h3>Ascensão de Muad'Dib</h3>
+              <p>Paul assume liderança dos fremen, consome a Água da Vida e desperta totalmente sua presciência.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-ano="10193 AG">
+            <div class="timeline-conteudo">
+              <h3>Batalha de Arrakeen</h3>
+              <p>Ataque final contra as forças imperiais e Harkonnen. Paul derrota Feyd-Rautha em combate ritual.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-ano="10193 AG">
+            <div class="timeline-conteudo">
+              <h3>Conquista Imperial</h3>
+              <p>Paul assume o trono do Imperador Padishah, dando início a uma nova era.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ——— 11. TRILHA SONORA — SPOTIFY VINIL ——— -->
+      <section id="trilha" class="secao-ato">
+        <div class="cabecalho-ato revelar">
+          <p class="numero-ato">Trilha Sonora</p>
+          <h2>A Música de Duna</h2>
+          <p>
+            A trilha sonora composta por Hans Zimmer é inseparável da
+            experiência de Duna. Selecione uma faixa para ouvir — o disco
+            sairá da capa do álbum e começará a girar.
+          </p>
+        </div>
+
+        <div class="vinil-container revelar">
+          <!-- ÁLBUM 1: DUNA PARTE 1 -->
+          <div class="vinil-album" id="album-duna1">
+            <div class="vinil-player">
+              <div class="vinil-capa">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b273fcb62bfb4b83b3e2caa40a1b"
+                  alt="Dune Original Motion Picture Soundtrack"
+                  crossorigin="anonymous"
+                />
+                <div class="vinil-capa-overlay">
+                  <span class="vinil-album-titulo">DUNE</span>
+                  <span class="vinil-album-subtitulo">Original Soundtrack</span>
+                </div>
+              </div>
+              <div class="vinil-disco">
+                <div class="vinil-disco-inner">
+                  <div class="vinil-disco-label">
+                    <span>DUNE</span>
+                    <small>Hans Zimmer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="vinil-tracklist">
+              <h3>Dune (2021)</h3>
+              <ul class="vinil-faixas" id="faixas-duna1">
+                <li data-track="Dream of Arrakis"><span class="faixa-numero">01</span><span class="faixa-nome">Dream of Arrakis</span><span class="faixa-duracao">2:55</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Herald of the Change"><span class="faixa-numero">02</span><span class="faixa-nome">Herald of the Change</span><span class="faixa-duracao">5:53</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Bene Gesserit"><span class="faixa-numero">03</span><span class="faixa-nome">Bene Gesserit</span><span class="faixa-duracao">1:57</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Gom Jabbar"><span class="faixa-numero">04</span><span class="faixa-nome">Gom Jabbar</span><span class="faixa-duracao">3:49</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="The One"><span class="faixa-numero">05</span><span class="faixa-nome">The One</span><span class="faixa-duracao">3:30</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Leaving Caladan"><span class="faixa-numero">06</span><span class="faixa-nome">Leaving Caladan</span><span class="faixa-duracao">3:11</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Arrakeen"><span class="faixa-numero">07</span><span class="faixa-nome">Arrakeen</span><span class="faixa-duracao">2:56</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Ripples in the Sand"><span class="faixa-numero">08</span><span class="faixa-nome">Ripples in the Sand</span><span class="faixa-duracao">3:44</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Paul's Dream"><span class="faixa-numero">09</span><span class="faixa-nome">Paul's Dream</span><span class="faixa-duracao">6:06</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Sandwalker"><span class="faixa-numero">10</span><span class="faixa-nome">Sandwalker</span><span class="faixa-duracao">5:42</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="My Road Leads into the Desert"><span class="faixa-numero">11</span><span class="faixa-nome">My Road Leads into the Desert</span><span class="faixa-duracao">5:45</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+              </ul>
+            </div>
+
+            <div class="spotify-embed" id="spotify-duna1">
+              <iframe src="https://open.spotify.com/embed/album/5sSIWkyMdiaaJBpm0dU0P0?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify — Dune"></iframe>
+            </div>
+          </div>
+
+          <!-- ÁLBUM 2: DUNA PARTE 2 -->
+          <div class="vinil-album" id="album-duna2">
+            <div class="vinil-player">
+              <div class="vinil-capa">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b273b0aa28636e498690bfdb4ae4"
+                  alt="Dune: Part Two Soundtrack"
+                  crossorigin="anonymous"
+                />
+                <div class="vinil-capa-overlay">
+                  <span class="vinil-album-titulo">DUNE II</span>
+                  <span class="vinil-album-subtitulo">Original Soundtrack</span>
+                </div>
+              </div>
+              <div class="vinil-disco">
+                <div class="vinil-disco-inner">
+                  <div class="vinil-disco-label">
+                    <span>DUNE II</span>
+                    <small>Hans Zimmer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="vinil-tracklist">
+              <h3>Dune: Part Two (2024)</h3>
+              <ul class="vinil-faixas" id="faixas-duna2">
+                <li data-track="Beginnings Are Such Delicate Times"><span class="faixa-numero">01</span><span class="faixa-nome">Beginnings Are Such Delicate Times</span><span class="faixa-duracao">2:44</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Harkonnen Arena"><span class="faixa-numero">02</span><span class="faixa-nome">Harkonnen Arena</span><span class="faixa-duracao">5:23</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="A Time of Quiet Between the Storms"><span class="faixa-numero">03</span><span class="faixa-nome">A Time of Quiet Between the Storms</span><span class="faixa-duracao">6:10</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Eclipse"><span class="faixa-numero">04</span><span class="faixa-nome">Eclipse</span><span class="faixa-duracao">2:21</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Worm Riders"><span class="faixa-numero">05</span><span class="faixa-nome">Worm Riders</span><span class="faixa-duracao">5:53</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Southern Messiah"><span class="faixa-numero">06</span><span class="faixa-nome">Southern Messiah</span><span class="faixa-duracao">4:09</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="The Sietch"><span class="faixa-numero">07</span><span class="faixa-nome">The Sietch</span><span class="faixa-duracao">3:07</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Kiss the Ring"><span class="faixa-numero">08</span><span class="faixa-nome">Kiss the Ring</span><span class="faixa-duracao">6:52</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Lisan al Gaib"><span class="faixa-numero">09</span><span class="faixa-nome">Lisan al Gaib</span><span class="faixa-duracao">8:22</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+                <li data-track="Only I Will Remain"><span class="faixa-numero">10</span><span class="faixa-nome">Only I Will Remain</span><span class="faixa-duracao">7:21</span><button class="faixa-play" aria-label="Tocar">▶</button></li>
+              </ul>
+            </div>
+
+            <div class="spotify-embed" id="spotify-duna2">
+              <iframe src="https://open.spotify.com/embed/album/2KjsOXhIAFhDjmYxNBOmwO?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify — Dune Part Two"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aviso sobre servidor local -->
+        <div class="spotify-aviso-servidor revelar" id="aviso-servidor">
+          <p>
+            ⚠️ <strong>Os players do Spotify e as capas dos álbuns exigem que
+            o site seja servido via HTTP.</strong> Se você está vendo
+            "Page not found" nos players, é porque o arquivo está sendo aberto
+            diretamente pelo navegador (<code>file:///</code>).
+          </p>
+          <p>
+            <strong>Como resolver:</strong> No VS Code, instale a extensão
+            <strong>Live Server</strong> (de Ritwick Dey), clique com o botão
+            direito no <code>index.html</code> e selecione
+            <strong>"Open with Live Server"</strong>. Isso criará um servidor
+            local (<code>http://127.0.0.1:5500</code>) e os embeds do Spotify
+            funcionarão normalmente.
+          </p>
+          <p>
+            A animação do vinil (disco saindo da capa e girando) é uma
+            demonstração de manipulação do DOM com JavaScript e funciona
+            independentemente do Spotify.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ═══════════════ FOOTER ═══════════════ -->
+    <footer>
+      <div class="rodape-interno">
+        <div class="rodape-info">
+          <p>Website de exemplo inspirado no universo de Duna, criado por Frank Herbert.</p>
+          <p class="rodape-creditos">Trilha sonora: Hans Zimmer · Filmes: Denis Villeneuve · Website: fins educacionais</p>
+        </div>
+        <div class="acoes-rodape">
+          <a href="#topo">Voltar ao topo ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
